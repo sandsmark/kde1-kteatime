@@ -2,7 +2,7 @@
 [KDE Desktop Entry]
 Name=The Tea Cooker
 Name[de]=Der Tee-Kocher
-Exec=kteatime
+Exec=kteatime1
 Icon=kteatime.xpm
 Type=Application
 Comment=

@@ -34,19 +34,19 @@ qt1_wrap_cpp(MOC_FILES
     toplevel.h
 )
 
-add_executable(kteatime
+add_executable(kteatime1
     main.cpp toplevel.cpp
 
     ${MOC_FILES}
 )
-target_link_libraries(kteatime
+target_link_libraries(kteatime1
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
     Qt::Qt1
     X11::X11
 )
 
-install(TARGETS kteatime RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kteatime1 RUNTIME DESTINATION ${KDE1_BINDIR})
 
 install_icon(kteatime.xpm)
 install(FILES kteatime.kdelnk DESTINATION ${KDE1_APPSDIR}/Utilities/)
